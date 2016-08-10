@@ -2,5 +2,8 @@
 blobstore:
   provider: s3
   options:
-    bucket_name: collectd-boshrelease
+    bucket_name: michael-test-blobstore
+    blobstore_path: collectd-release
+#    region: eu-west-1
+#    endpoint: https://s3-eu-west-1.amazonaws.com
 final_name: collectd
