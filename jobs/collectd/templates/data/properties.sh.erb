@@ -13,4 +13,4 @@ export DEPLOYMENT_NAME=<%= spec.deployment %>
 export DNS_ROOT=<%= spec.dns_domain_name %>
 
 # $BIND_ADDR is the IP of the first network
-export BIND_ADDR=<%= spec.networks.send(spec.networks.methods(false).first).ip %>
+export BIND_ADDR=<%= spec.ip %>
